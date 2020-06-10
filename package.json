@@ -1,0 +1,27 @@
+{
+  "name": "ink-reader-svelte",
+  "version": "1.0.0",
+  "description": "Svelte Components for the Ink reading UI",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "The Rebus Foundation",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^13.0.0",
+    "@rollup/plugin-node-resolve": "^8.0.1",
+    "autoprefixer": "^9.8.0",
+    "cssnano": "^4.1.10",
+    "postcss": "^7.0.32",
+    "postcss-calc": "^7.0.2",
+    "postcss-easy-import": "^3.0.0",
+    "postcss-pxtorem": "^5.1.1",
+    "rollup": "^2.15.0",
+    "rollup-plugin-svelte": "^5.2.2",
+    "rollup-plugin-terser": "^6.1.0",
+    "svelte": "^3.23.0",
+    "svelte-preprocess": "^3.9.6",
+    "typescript": "^3.9.5"
+  }
+}
