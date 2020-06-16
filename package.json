@@ -6,6 +6,21 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "healthier": {
+    "ignore": [
+      "__sapper__",
+      "rollup.config.js"
+    ]
+  },
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {},
+      "postcss-easy-import": {},
+      "postcss-calc": {},
+      "postcss-pxtorem": {},
+      "cssnano": {}
+    }
+  },
   "author": "The Rebus Foundation",
   "license": "Apache-2.0",
   "devDependencies": {
@@ -13,15 +28,22 @@
     "@rollup/plugin-node-resolve": "^8.0.1",
     "autoprefixer": "^9.8.0",
     "cssnano": "^4.1.10",
+    "healthier": "^3.3.0",
     "postcss": "^7.0.32",
     "postcss-calc": "^7.0.2",
     "postcss-easy-import": "^3.0.0",
     "postcss-pxtorem": "^5.1.1",
+    "prettier": "^2.0.5",
     "rollup": "^2.15.0",
     "rollup-plugin-svelte": "^5.2.2",
     "rollup-plugin-terser": "^6.1.0",
     "svelte": "^3.23.0",
     "svelte-preprocess": "^3.9.6",
     "typescript": "^3.9.5"
+  },
+  "dependencies": {
+    "dom-anchor-text-quote": "^4.0.2",
+    "dom-seek": "^5.1.1",
+    "universal-base64url": "^1.1.0"
   }
 }
